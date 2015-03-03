@@ -1,0 +1,16 @@
+<com.cmeiyuan.hello123.widget.MySwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context="com.cmeiyuan.hello123.MainActivity">
+
+    <com.cmeiyuan.hello123.swipe.SwipeMenuListView
+        android:id="@+id/lv_swipeMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.cmeiyuan.hello123.swipe.SwipeMenuListView>
+
+</com.cmeiyuan.hello123.widget.MySwipeRefreshLayout>

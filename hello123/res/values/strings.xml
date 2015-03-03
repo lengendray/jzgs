@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">净值估算</string>
+    <string name="activity_label_main">收益估算</string>
+    <string name="activity_label_addfund">添加基金</string>
+    <string name="activity_label_searchfund">搜索基金</string>
+    <string name="activity_label_history">历史净值</string>
+    <string name="label_income_label">预计收益</string>
+    <string name="label_income_value">--</string>
+    <string name="label_update_time">--</string>
+    <string name="label_income_value_unit">元</string>
+    <string name="list_item_name">基金名称</string>
+    <string name="list_item_share">基金份额</string>
+    <string name="list_item_net_value">--</string>
+    <string name="list_item_income_value">--</string>
+    <string name="unit_yuan">元</string>
+    <string name="hint_fund_code">请输入基金代码</string>
+    <string name="hint_fund_name">请输入基金名称</string>
+    <string name="hint_fund_share">请输入当前市值</string>
+    <string name="hint_fund_search">输入基金代码或名称</string>
+    <string name="btn_add_fund">立即添加</string>
+    <string name="btn_update_fund">编辑</string>
+    <string name="btn_delete_fund">删除</string>
+    <string name="btn_next_step">下一步</string>
+    <string name="btn_month">一月</string>
+    <string name="btn_season">季度</string>
+    <string name="btn_half">半年</string>
+    <string name="btn_year">一年</string>
+    <string name="menu_itme_addfund">添加</string>
+    <string name="null_value">--</string>
+    <string name="label_date">净值日期</string>
+    <string name="label_netValue">单位净值</string>
+    <string name="label_range_grow">区间涨跌</string>
+    <string name="label_grow">日涨跌</string>
+
+</resources>

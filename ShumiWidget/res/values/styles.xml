@@ -1,0 +1,59 @@
+<resources>
+
+    <style name="HoloCircleChart">
+
+        <!-- 内环宽度 -->
+        <item name="innerRingWidth">5dp</item>
+        <!-- 外环宽度 -->
+        <item name="outerRingWidth">5dp</item>
+        <!-- 内环颜色 -->
+        <item name="innerRingColor">#EAEAE7</item>
+        <!-- 外环颜色 -->
+        <item name="outerRingColor">#FF0000</item>
+        <!-- 外环渐变起始颜色 -->
+        <item name="outerRingStartColor">#F7682B</item>
+        <!-- 外环渐变结束颜色 -->
+        <item name="outerRingEndColor">#EE4132</item>
+        <!-- 中间区域颜色 -->
+        <item name="centerAreaColor">#FFFFFF</item>
+        <!-- 中间文字颜色 -->
+        <item name="textColor">#FF0000</item>
+        <!-- 中间文字大小 -->
+        <item name="textSize">5.0dip</item>
+		<!-- 附加文字颜色 -->
+        <item name="extraTextColor">#0000FF</item>
+        <!-- 附加文字大小 -->
+        <item name="extraTextSize">6dp</item>
+        <!-- 文字间距 -->
+        <item name="textLabelMagin">2dp</item>
+        <!-- 字体文件名称，请放于assets目录下 -->
+        <item name="fontName">fonts/fund123num.TTF</item>
+    </style>
+
+    <style name="HoloLnChart">
+
+        <!-- 数据标尺间隔 -->
+        <item name="dataAxisStep">20</item>
+        <!-- 网格线风格，有实线(solid)、逗号(dot)、破折线(dash) -->
+        <item name="gridLineStyle">dash</item>
+        <!-- 网络线颜色 -->
+        <item name="gridLineColor">#808080</item>
+        <!-- 网络线宽度 -->
+        <item name="gridLineWidth">1dp</item>
+        <!-- 图例文字大小 -->
+        <item name="legendTextSize">12sp</item>
+        <!-- 图例文字颜色 -->
+        <item name="legendTextColor">#000000</item>
+        <!-- 刻度线标签文字大小 -->
+        <item name="tickLabelTextSize">8sp</item>
+        <!-- 刻度线标签文字颜色 -->
+        <item name="tickLabelTextColor">#000000</item>
+        <!-- 刻度线颜色 、设为透明隐藏刻度线 -->
+        <item name="tickMarksColor">#00000000</item>
+    </style>
+
+    <style name="HoloLineChart" parent="@style/HoloLnChart"></style>
+
+    <style name="HoloSplineChart" parent="@style/HoloLnChart"></style>
+
+</resources>

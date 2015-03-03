@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="val_positive">#d73333</color>
+    <color name="val_negative">#1bc07d</color>
+    <color name="val_zero">#414141</color>
+    <color name="panel">#FFFFFF</color>
+    <color name="panel_sub">#11000000</color>
+    <color name="progress">#4169E1</color>
+
+</resources>

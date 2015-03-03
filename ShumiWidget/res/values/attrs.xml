@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="CircleChartViewStyle" format="reference" />
+
+    <!-- 定义有刻度图形的基本属性 -->
+    <declare-styleable name="LnChartView">
+        <attr name="dataAxisStep" format="integer" />
+        <attr name="gridLineStyle">
+            <flag name="solid" value="0x1" />
+            <flag name="dot" value="0x2" />
+            <flag name="dash" value="0x3" />
+        </attr>
+        <attr name="gridLineColor" format="color" />
+        <attr name="gridLineWidth" format="dimension" />
+        <attr name="legendTextSize" format="dimension" />
+        <attr name="legendTextColor" format="color" />
+        <attr name="tickLabelTextSize" format="dimension"></attr>
+        <attr name="tickLabelTextColor" format="color"></attr>
+        <attr name="tickMarksColor" format="color"></attr>
+    </declare-styleable>
+    <!-- 定义折线图属性 -->
+    <declare-styleable name="LineChartView">
+        <attr name="test2" format="float" />
+    </declare-styleable>
+    <!-- 定义曲线图属性 -->
+    <declare-styleable name="SplineChartView">
+        <attr name="test3" format="float" />
+    </declare-styleable>
+
+    <!-- 定义圆环图的属性 -->
+    <declare-styleable name="CircleChartView">
+        <attr name="percent" format="float" />
+        <attr name="innerRingWidth" format="dimension" />
+        <attr name="outerRingWidth" format="dimension" />
+        <attr name="innerRingColor" format="color" />
+        <attr name="outerRingColor" format="color" />
+        <attr name="outerRingStartColor" format="color" />
+        <attr name="outerRingEndColor" format="color" />
+        <attr name="centerAreaColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="extraTextColor" format="color" />
+        <attr name="extraTextSize" format="dimension" />
+        <attr name="textLabelMagin" format="dimension" />
+        <attr name="fontName" format="string" />
+    </declare-styleable>
+    <declare-styleable name="ProgressView">
+        <attr name="progress" format="float" />
+        <attr name="positiveDrawable" format="reference" />
+        <attr name="negativeDrawable" format="reference" />
+        <attr name="drawType">
+            <flag name="start" value="0x1" />
+            <flag name="center" value="0x2" />
+            <flag name="end" value="0x3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PullToZoomScrollView">
+        <attr name="scrollHeadView" format="reference" />
+        <attr name="scrollContentView" format="reference" />
+        <attr name="scrollZoomView" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PullToZoomListView">
+        <attr name="listHeadView" format="reference" />
+        <attr name="isHeadParallax" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+</resources>
